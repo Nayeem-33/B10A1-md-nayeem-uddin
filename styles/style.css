@@ -139,6 +139,41 @@ nav{
 }
 /* My Inspiration style ends */
 
+/* my current target style start */
+.card-mct{
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+.card-html{
+    width: 33.33%;
+    background-color: #ff4b1e0a;
+    border-radius: 16px;
+    padding: 35px;
+    text-align: left;
+    gap: 5px;
+}
+.card-css{
+    width: 33.33%;
+    background-color: #004CE80a;
+    border-radius: 16px;
+    padding: 35px;
+    text-align: left;
+    gap: 5px;
+}
+.card-js{
+    width: 33.33%;
+    background-color: #FFDF000a;
+    border-radius: 16px;
+    padding: 35px;
+    text-align: left;
+    gap: 5px;
+}
+a{
+    color: #0d1321da;
+}
+/* my current target style ends */
+
 /* I need support style start */
 .div-ins{
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(/assets/handshake.jpg);
@@ -172,7 +207,6 @@ nav{
     font-weight: 500;
 }
 /* I need support style ends */
-
 
 /* footer style start */
 .section-8{
