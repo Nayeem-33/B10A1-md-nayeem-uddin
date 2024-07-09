@@ -142,37 +142,61 @@ nav{
 /* my current target style start */
 .card-mct{
     display: flex;
-    gap: 25px;
     justify-content: space-between;
+    padding: 20px;
 }
 .card-html{
-    width: 33.33%;
+    width: 30%;
     background-color: #ff4b1e0a;
     border-radius: 16px;
     padding: 35px;
     text-align: left;
-    gap: 5px;
+    margin-right: 10px
 }
 .card-css{
-    width: 33.33%;
+    width: 30%;
     background-color: #004CE80a;
     border-radius: 16px;
     padding: 35px;
     text-align: left;
-    gap: 5px;
+    margin-right: 10px
 }
 .card-js{
-    width: 33.33%;
-    background-color: #FFDF000a;
+    width: 30%;
+    background-color: #f58f0a0a;
     border-radius: 16px;
     padding: 35px;
     text-align: left;
-    gap: 5px;
+    margin-right: 10px
 }
 a{
     color: #0d1321da;
 }
 /* my current target style ends */
+
+/* my next target style start */
+
+.card-mnt{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px
+}
+.card-rjs, .card-njs, .card-mdb {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 85%;
+    border: #0D1321 solid 1px;
+    border-radius: 16px;
+    padding: 35px;
+    text-align: left;
+    margin-right: 10px
+}
+.img-rnm{
+    width: 100px;
+}
+/* my next target style end */
 
 /* I need support style start */
 .div-ins{
