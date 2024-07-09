@@ -120,6 +120,27 @@ nav{
 }
 /* Why Web Development?? style ends */
 
+/* My Inspiration style start */
+.ytvideo{
+    border-radius: 16px;
+}
+.yt-bdr{
+    padding: 32px;
+    border-radius: 16px;
+    border: #0d13212d solid 1px;
+}
+.div-mi{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+/* My Inspiration style ends */
+
+
+
 /* footer style start */
 .section-8{
     background-color: #F7F8F8;
