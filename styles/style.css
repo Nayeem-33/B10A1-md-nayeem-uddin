@@ -10,7 +10,7 @@
 }
 /* nav bar style starts */
 .div-1{
-    width: 60%;
+    width: 70%;
     max-width: 1920;
     min-width: 320px;
     margin: 50px auto;
@@ -50,6 +50,7 @@ nav{
 .head-main{
     font-size: 48px;
     color: #0D1321;
+    font-weight: 800;
 }
 .btn-2{
     padding: 20px 30px;
@@ -66,6 +67,7 @@ nav{
 .head-sec{
     font-size: 32px;
     color: rgb(13, 19, 33);
+    font-weight: 800;
 }
 .sec-wwd{
     padding: 75px 0;
@@ -180,7 +182,8 @@ a{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 20px
+    padding: 20px;
+
 }
 .card-rjs, .card-njs, .card-mdb {
     display: flex;
@@ -191,7 +194,7 @@ a{
     border-radius: 16px;
     padding: 35px;
     text-align: left;
-    margin-right: 10px
+    margin: 0 auto;
 }
 .img-rnm{
     width: 100px;
