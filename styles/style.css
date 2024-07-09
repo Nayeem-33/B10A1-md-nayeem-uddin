@@ -13,13 +13,13 @@
     width: 60%;
     max-width: 1920;
     min-width: 320px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 .btn-1{
     padding: 15px 25px;
@@ -139,6 +139,39 @@ nav{
 }
 /* My Inspiration style ends */
 
+/* I need support style start */
+.div-ins{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 100px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: rgba(255, 255, 255, 0.925);
+}
+.input-ins{
+    border: none;
+    color: #0d132152;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 8px 20px;
+    width: 300px;
+}
+.btn-4{
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    background-color: white;
+    color: #0D1321;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 500;
+}
+/* I need support style ends */
 
 
 /* footer style start */
@@ -156,6 +189,7 @@ nav{
     gap: 24px;
 }
 /* footer style ends */
+
 .buttonpage{
 background-color: green;
 font-size: 100px;
