@@ -3,11 +3,11 @@
     font-family: "Azeret Mono", monospace;
     font-size: 16px;
   }
-
-/* nav bar style starts */
-.section-1{
-    background-color: white;
+*{
+    margin: 0;
+    padding: 0;
 }
+/* nav bar style starts */
 .div-1{
     width: 60%;
     max-width: 1920;
@@ -18,6 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 .btn-1{
     padding: 15px 25px;
@@ -33,9 +34,11 @@ nav{
 /* head section styles start */
 .section-2{
     background-image: url(/assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .div-2{
-    border: solid 2px rebeccapurple;
     padding: 200px 0;
     display: flex;
     flex-direction: column;
@@ -59,7 +62,21 @@ nav{
 /* head section styles ends */
 
 /* Why Web Development?? style starts */
-
+.head-sec{
+    font-size: 32px;
+}
+.sec-wwd{
+    padding: 75px 0;
+}
+.div-wwd{
+    width: 60%;
+    max-width: 1920;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: #FAFAFB;
+    padding: 95px 80px;
+    text-align: center;
+}
 
 /* footer style start */
 .section-8{
@@ -69,10 +86,17 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px ;
+    padding: 30px 0;
 }
 .icon-div{
     display: flex;
     gap: 24px;
 }
 /* footer style ends */
+.buttonpage{
+background-color: green;
+font-size: 100px;
+padding: 300px 0;
+text-align: center;
+color: white;
+}
