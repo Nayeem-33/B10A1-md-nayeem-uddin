@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+.azeret-mono{
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+  }
+
+/* nav bar style starts */
+.section-1{
+    background-color: white;
+}
+.div-1{
+    width: 60%;
+    max-width: 1920;
+    min-width: 320px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-1{
+    padding: 15px 25px;
+    border: solid 2px #0d1321c4;
+    background-color: white;
+    color: #0d1321c4;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+    border-radius: 8px;
+}
+/* nav bar Style Ends */
+
+/* head section styles start */
+.section-2{
+    background-image: url(/assets/Hero-bg.png);
+}
+.div-2{
+    border: solid 2px rebeccapurple;
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.head-main{
+    font-size: 48px;
+
+}
+.btn-2{
+    padding: 20px 30px;
+    border: none;
+    background-color: #0D1321;
+    color: white;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+    border-radius: 8px;
+}
+/* head section styles ends */
+
+/* Why Web Development?? style starts */
+
+
+/* footer style start */
+.section-8{
+    background-color: #F7F8F8;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px ;
+}
+.icon-div{
+    display: flex;
+    gap: 24px;
+}
+/* footer style ends */
