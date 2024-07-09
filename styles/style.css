@@ -2,6 +2,7 @@
 .azeret-mono{
     font-family: "Azeret Mono", monospace;
     font-size: 16px;
+    color: rgba(13, 19, 33, 0.788);
   }
 *{
     margin: 0;
@@ -48,7 +49,7 @@ nav{
 }
 .head-main{
     font-size: 48px;
-
+    color: #0D1321;
 }
 .btn-2{
     padding: 20px 30px;
@@ -64,11 +65,15 @@ nav{
 /* Why Web Development?? style starts */
 .head-sec{
     font-size: 32px;
+    color: rgb(13, 19, 33);
 }
 .sec-wwd{
     padding: 75px 0;
 }
 .div-wwd{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     width: 60%;
     max-width: 1920;
     min-width: 320px;
@@ -77,6 +82,43 @@ nav{
     padding: 95px 80px;
     text-align: center;
 }
+.card-wwd{
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 0, 0, 0) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.card-wwd-2{
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 0, 0, 0) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 40%;
+    padding: 20px;
+    gap: 25px;
+}
+.img-div{
+    width: 35%;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.btn-3{
+    padding: 8px 20px;
+    border: solid 2px #0d1321c4;
+    background-color: white;
+    color: #0d1321c4;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+}
+/* Why Web Development?? style ends */
 
 /* footer style start */
 .section-8{
