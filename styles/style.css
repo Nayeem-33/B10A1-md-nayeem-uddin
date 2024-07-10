@@ -222,7 +222,7 @@ a{
     flex-direction: column;
     gap: 24px;
     color: rgba(255, 255, 255, 0.925);
-    background-image: linear-gradient(to left, #0d132157, #0d132157), url(../assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
