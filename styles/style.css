@@ -46,7 +46,7 @@ nav{
 
 /* head section styles start */
 .section-2{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -215,7 +215,7 @@ a{
 
 /* I need support style start */
 .div-ins{
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(/assets/handshake.jpg);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(./assets/handshake.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
