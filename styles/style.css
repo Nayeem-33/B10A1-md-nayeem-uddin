@@ -8,18 +8,30 @@
     margin: 0;
     padding: 0;
 }
+.pera-pri{
+    line-height: 25pt;
+}
+.buttonpage{
+    font-family: "Azeret Mono", monospace;
+    background-color: green;
+    font-size: 80px;
+    padding: 300px 0;
+    text-align: center;
+    color: white;
+}
+/* ^^^ up here rest universal styles ^^^ */
+
 /* nav bar style starts */
 .div-1{
-    width: 70%;
+    width:60%;
     max-width: 1920;
-    min-width: 320px;
+    min-width: 350px;
     margin: 50px auto;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 20px 0; */
 }
 .btn-1{
     padding: 15px 25px;
@@ -250,11 +262,3 @@ a{
     gap: 24px;
 }
 /* footer style ends */
-
-.buttonpage{
-background-color: green;
-font-size: 100px;
-padding: 300px 0;
-text-align: center;
-color: white;
-}
